@@ -1,8 +1,0 @@
-services:
-  scraper:
-    build: .
-    environment:
-      - TICKETMASTER_API_KEY=${TICKETMASTER_API_KEY}
-      - OUTPUT_DIR=/output
-    volumes:
-      - ./output:/output
