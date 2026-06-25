@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 from bs4 import BeautifulSoup
 
-# ─── Configuration ────────────────────────────────────────────────────────────
+#Configuration
 
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "/output")
 DELAY      = 1.5   # secondes entre chaque requête (respecter les serveurs)
@@ -26,7 +26,7 @@ MONTHS_FR = {
 }
 
 
-# ─── Liste des festivals officiels ───────────────────────────────────────────
+#Liste des festivals officiels
 
 
 FESTIVALS = [
