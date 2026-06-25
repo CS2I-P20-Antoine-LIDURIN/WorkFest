@@ -29,7 +29,7 @@ def scrape_festival(name, url, genre, ville):
 
     try:
 
-        response = requests.get(
+        response = re.get(
             url,
             headers=HEADERS,
             timeout=20,

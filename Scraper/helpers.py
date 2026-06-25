@@ -1,19 +1,14 @@
 import re
 
 def get_page_title(soup):
-
     title = soup.find("title")
-
     if title:
         return title.get_text(strip=True)
-
     return ""
 
 
 def get_description(soup):
-
     for meta in soup.find_all("meta"):
-
         if (
             meta.get("name", "").lower()
             in ["description", "og:description"]
@@ -21,20 +16,16 @@ def get_description(soup):
             meta.get("property", "").lower()
             == "og:description"
         ):
-
             content = meta.get(
                 "content",
                 ""
             ).strip()
-
             if content:
                 return content
-
     return ""
 
 
 def clean_page(soup):
-
     for tag in soup(
         [
             "script",
@@ -46,29 +37,23 @@ def clean_page(soup):
         ]
     ):
         tag.decompose()
-
     return soup
 
 
 def get_full_text(soup):
-
     text = soup.get_text(
         separator="\n"
     )
-
     text = re.sub(
         r"\n{3,}",
         "\n\n",
         text
     )
-
     return text.strip()
 
 
 def extract_artists(soup):
-
     artists = []
-
     sections = soup.find_all(
         attrs={
             "class": re.compile(
@@ -79,7 +64,6 @@ def extract_artists(soup):
     )
 
     for section in sections[:3]:
-
         for item in section.find_all(
             [
                 "li",
@@ -94,7 +78,6 @@ def extract_artists(soup):
             text = item.get_text(
                 strip=True
             )
-
             if (
                 2 < len(text) < 60
                 and text not in artists
