@@ -15,10 +15,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Construire l'image Docker
-        run: docker build -t festivals-Scraper ./Scraper
+        run: docker build -t festivals-scraper -f docker/Dockerfile .
 
       - name: Vérifier les dépendances installées
-        run: docker run --rm festivals-Scraper pip list
+        run: docker run --rm festivals-scraper pip list
 
       - name: Lancer le Scraper
         run: |
@@ -26,7 +26,7 @@ jobs:
           docker run --rm \
             -e OUTPUT_DIR=/output \
             -v ${{ github.workspace }}/output:/output \
-            festivals-Scraper
+            festivals-scraper
 
       - name: Afficher les notes générées
         run: |

@@ -12,7 +12,9 @@ from Scraper.scraper import (
     scrape_festival,
 )
 
-from generate_notes import generate_notes
+from notes.generator import (
+    generate_notes,
+)
 
 
 def main():
@@ -45,6 +47,10 @@ def main():
         time.sleep(
             DELAY
         )
+
+    generate_notes(
+        results
+    )
 
     print(
         "Génération des notes Obsidian..."
