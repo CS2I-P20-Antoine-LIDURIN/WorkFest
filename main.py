@@ -12,6 +12,10 @@ from scraper.scraper import (
     scrape_festival,
 )
 
+from notes.generator import (
+    generate_notes,
+)
+
 
 def main():
 
@@ -43,6 +47,10 @@ def main():
         time.sleep(
             DELAY
         )
+
+    generate_notes(
+        results
+    )
 
     print(
         "Terminé"
