@@ -8,7 +8,7 @@ from config.festivals import (
     FESTIVALS,
 )
 
-from scraper.scraper import (
+from Scraper.scraper import (
     scrape_festival,
 )
 
@@ -51,6 +51,12 @@ def main():
     generate_notes(
         results
     )
+
+    print(
+        "Génération des notes Obsidian..."
+    )
+
+    generate_notes(results)
 
     print(
         "Terminé"

@@ -1,14 +1,15 @@
 import re
+import requests
 
 from bs4 import BeautifulSoup
 
 from config.settings import HEADERS
 
-from scraper.dates import (
+from Scraper.dates import (
     extract_dates,
 )
 
-from scraper.helpers import (
+from Scraper.helpers import (
     get_page_title,
     get_description,
     clean_page,
@@ -45,6 +46,7 @@ def scrape_festival(name, url, genre, ville):
     except Exception as error:
 
         result["statut"] = str(error)
+        return result
 
 
     soup = BeautifulSoup(
