@@ -30,7 +30,7 @@ def scrape_festival(name, url, genre, ville):
 
     try:
 
-        response = re.get(
+        response = requests.get(
             url,
             headers=HEADERS,
             timeout=20,
@@ -83,7 +83,4 @@ def scrape_festival(name, url, genre, ville):
 
     result["artistes"] = (
         extract_artists(
-            soup
-        )
-    )
-    return result
+            s

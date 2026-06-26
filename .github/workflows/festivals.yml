@@ -40,4 +40,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: festivals-obsidian-2026
-          path: output/
+          pa
