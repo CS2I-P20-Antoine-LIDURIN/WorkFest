@@ -36,7 +36,7 @@ def generate_notes(festivals_data):
             festival,
         )
 
-        if festival["month"]:
+        if festival.get("month"):
 
             by_month.setdefault(
                 festival["month"],

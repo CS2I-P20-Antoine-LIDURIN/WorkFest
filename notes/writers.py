@@ -49,7 +49,7 @@ def write_festival_note(
     * Site : {festival["url"]}
       """)
 
-        if festival["dates_2026"]:
+        if festival.get("dates_2026"):
 
             file.write(
                 "\n- Dates : "
@@ -59,17 +59,15 @@ def write_festival_note(
                 + "\n"
             )
 
-        if festival["description"]:
+        if festival.get("description"):
 
-            file.write(f"""
-      ```
+            file.write(
+                "\n## Description\n\n"
+                + festival["description"]
+                + "\n"
+            )
 
-    ## Description
-
-    {festival["description"]}
-    """)
-
-        if festival["artistes"]:
+        if festival.get("artistes"):
 
             file.write(
                 "\n## Artistes\n\n"
