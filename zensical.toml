@@ -1,5 +1,5 @@
 [site]
-name = "WorkFest"
+site_name = "WorkFest"
 description = "Festivals de musique en France 2026"
 
 [build]
