@@ -1,14 +1,11 @@
 name: Documentation
-
 on:
   push:
     branches:
-      
-main
-  paths:
-'docs/**'
-'zensical.toml'
-
+      - main
+    paths:
+      - 'docs/**'
+      - 'zensical.toml'
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -16,24 +13,19 @@ jobs:
       contents: read
       pages: write
       id-token: write
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
-      
-name: Récupérer le code
-      uses: actions/checkout@v4
+      - name: Récupérer le code
+        uses: actions/checkout@v4
 
-      
-name: Déployer la documentation
-      uses: cssnr/zensical-action@v1
-      with:
-        source: docs
-        config: zensical.toml
+      - name: Déployer la documentation
+        uses: cssnr/zensical-action@v1
+        with:
+          source: docs
+          config: zensical.toml
 
-      
-name: Publier sur GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+      - name: Publier sur GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
