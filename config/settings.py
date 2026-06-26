@@ -26,4 +26,5 @@ HEADERS = {
         "Chrome/124.0.0.0 Safari/537.36"
     ),
     "Accept-Language": "fr-FR,fr;q=0.9",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+}

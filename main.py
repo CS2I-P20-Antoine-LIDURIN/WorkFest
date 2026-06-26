@@ -49,4 +49,15 @@ def main():
         )
 
     print(
-        "Gé
+        "Génération des notes Obsidian..."
+    )
+
+    generate_notes(results)
+
+    print(
+        "Terminé"
+    )
+
+
+if __name__ == "__main__":
+    main()

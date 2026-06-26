@@ -83,4 +83,7 @@ def scrape_festival(name, url, genre, ville):
 
     result["artistes"] = (
         extract_artists(
-            s
+            soup
+        )
+    )
+    return result
