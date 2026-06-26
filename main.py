@@ -8,7 +8,7 @@ from config.festivals import (
     FESTIVALS,
 )
 
-from Scraper.scraper import (
+from scraper.scraper import (
     scrape_festival,
 )
 
