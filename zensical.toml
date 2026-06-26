@@ -1,0 +1,7 @@
+site_name = "WorkFest"
+description = "Festivals de musique en France 2026"
+extra_css = ["custom.css"]
+
+[build]
+source = "docs"
+output = "site"

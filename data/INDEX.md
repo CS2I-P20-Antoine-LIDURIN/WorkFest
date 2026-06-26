@@ -1,7 +1,7 @@
 # 🎵 Festivals de musique en France — 2026
 
 > Source : sites officiels de chaque festival  
-> Généré le 26/06/2026 à 08:55  
+> Généré le 26/06/2026 à 11:48  
 > **34 festivals** · **22 avec dates 2026 confirmées** ✅
 
 ## 📅 Par mois
