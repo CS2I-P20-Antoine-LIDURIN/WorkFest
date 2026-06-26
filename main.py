@@ -8,7 +8,7 @@ from config.festivals import (
     FESTIVALS,
 )
 
-from scraper.scraper import (
+from Scraper.scraper import (
     scrape_festival,
 )
 
@@ -48,14 +48,5 @@ def main():
             DELAY
         )
 
-    generate_notes(
-        results
-    )
-
     print(
-        "Terminé"
-    )
-
-
-if __name__ == "__main__":
-    main()
+        "Gé

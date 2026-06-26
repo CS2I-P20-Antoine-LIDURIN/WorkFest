@@ -1,0 +1,43 @@
+name: Festivals 2026 - Scraper
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: Construire l'image Docker
+        run: docker build -t festivals-scraper -f docker/Dockerfile .
+
+      - name: Vérifier les dépendances installées
+        run: docker run --rm festivals-scraper pip list
+
+      - name: Lancer le Scraper
+        run: |
+          mkdir -p output
+          docker run --rm \
+            -e OUTPUT_DIR=/output \
+            -v ${{ github.workspace }}/output:/output \
+            festivals-scraper
+
+      - name: Afficher les notes générées
+        run: |
+          echo "=== Fichiers générés ==="
+          ls -la output/
+          echo ""
+          echo "=== INDEX.md ==="
+          cat output/INDEX.md
+
+      - name: Sauvegarder les notes en artefact
+        uses: actions/upload-artifact@v4
+        with:
+          name: festivals-obsidian-2026
+          pa
