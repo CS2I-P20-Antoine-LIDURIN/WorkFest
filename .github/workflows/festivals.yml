@@ -10,6 +10,10 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
 
+    # Permission pour que le workflow puisse écrire dans le repo
+    permissions:
+      contents: write
+
     steps:
       - name: Récupérer le code
         uses: actions/checkout@v4
@@ -27,6 +31,16 @@ jobs:
             -e OUTPUT_DIR=/output \
             -v ${{ github.workspace }}/output:/output \
             festivals-scraper
+
+      - name: Commiter les notes dans le repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          mkdir -p data
+          cp -r output/* data/
+          git add data/
+          git diff --staged --quiet || git commit -m "update : festivals scrappés $(date +'%d/%m/%Y')"
+          git push
 
       - name: Afficher les notes générées
         run: |
