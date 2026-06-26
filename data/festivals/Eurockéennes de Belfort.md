@@ -1,13 +1,13 @@
 # Eurockéennes de Belfort
-    ```
 
-    ## Informations
+## Informations
 
-    * Ville : Belfort
-    * Genre : Rock
-    * Site : https://www.eurockeennes.fr
-      
-- Dates : juillet | mars
+| Champ | Valeur |
+|-------|--------|
+| 📍 Ville  | Belfort |
+| 🎸 Genre  | Rock |
+| 📅 Dates  | juillet · mars |
+| 🌐 Site   | [https://www.eurockeennes.fr](https://www.eurockeennes.fr) |
 
 ## Description
 
@@ -21,3 +21,10 @@ Programme, informations pratiques et billetterie du festival Les Eurockéennes d
 - Orelsanvendredi 3 juillet
 - Orelsan
 - vendredi 3 juillet
+- Ben Harper & The Innocent Criminalsdimanche 5 juillet
+- Ben Harper & The Innocent Criminals
+- dimanche 5 juillet
+
+---
+
+[[INDEX|← Retour à l'index]]

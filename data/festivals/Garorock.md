@@ -1,13 +1,13 @@
 # Garorock
-    ```
 
-    ## Informations
+## Informations
 
-    * Ville : Marmande
-    * Genre : Rock/Hip-Hop
-    * Site : https://www.garorock.com
-      
-- Dates : juin | JUIN | mai | Juin
+| Champ | Valeur |
+|-------|--------|
+| 📍 Ville  | Marmande |
+| 🎸 Genre  | Rock/Hip-Hop |
+| 📅 Dates  | juin · JUIN · mai · Juin |
+| 🌐 Site   | [https://www.garorock.com](https://www.garorock.com) |
 
 ## Description
 
@@ -32,6 +32,10 @@ Garorock : l’un des plus grands festivals de musique en France. 30 ans d’his
 - ESAÏA Live
 - FANETTE b2b LINOA
 - KALABASS
-- BIGFLO & OLIVen 26 Juin
-- Ven 26 Juin
-- DISIZVen 26 Juin
+- LEKID
+- LOOV
+- MARIUS & PIERINO
+
+---
+
+[[INDEX|← Retour à l'index]]

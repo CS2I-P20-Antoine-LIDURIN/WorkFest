@@ -1,9 +1,15 @@
 # Booska Summer Festival
-    ```
 
-    ## Informations
+> ⚠️ Site inaccessible : HTTPSConnectionPool(host='www.booskasummerland.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.booskasummerland.com', port=443): Failed to resolve 'www.booskasummerland.com' ([Errno -2] Name or service not known)"))
 
-    * Ville : Ile-de-France
-    * Genre : Hip-Hop
-    * Site : https://www.booskasummerland.com
-      
+## Informations
+
+| Champ | Valeur |
+|-------|--------|
+| 📍 Ville  | Ile-de-France |
+| 🎸 Genre  | Hip-Hop |
+| 🌐 Site   | [https://www.booskasummerland.com](https://www.booskasummerland.com) |
+
+---
+
+[[INDEX|← Retour à l'index]]
