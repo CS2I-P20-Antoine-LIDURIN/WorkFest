@@ -1,0 +1,7 @@
+[site]
+name = "WorkFest"
+description = "Festivals de musique en France 2026"
+
+[build]
+source = "data"
+output = "site"
