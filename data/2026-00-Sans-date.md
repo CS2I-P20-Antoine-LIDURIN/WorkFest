@@ -1,13 +1,12 @@
 # 🎵 Festivals — Date non trouvée sur le site
 
-> 13 festival(s) · [[INDEX|← Index]]
+> 12 festival(s) · [[INDEX|← Index]]
 
 ---
 
 - [[festivals/Art Rock|Art Rock]] — Saint-Brieuc · Éclectique
 - [[festivals/Beauregard Festival|Beauregard Festival]] — Hérouville-Saint-Clair · Rock/Pop
 - [[festivals/Booska Summer Festival|Booska Summer Festival]] — Ile-de-France · Hip-Hop
-- [[festivals/Chorégies d'Orange|Chorégies d'Orange]] — Orange · Opéra
 - [[festivals/Download Festival Paris|Download Festival Paris]] — Paris · Metal/Rock
 - [[festivals/Festival de Radio France|Festival de Radio France]] — Montpellier · Classique/Jazz
 - [[festivals/Fête de l'Humanité|Fête de l'Humanité]] — Plaine Saint-Denis · Éclectique

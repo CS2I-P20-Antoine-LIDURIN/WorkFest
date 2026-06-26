@@ -1,19 +1,19 @@
 # 🎵 Festivals de musique en France — 2026
 
 > Source : sites officiels de chaque festival  
-> Généré le 26/06/2026 à 11:43  
-> **34 festivals** · **21 avec dates 2026 confirmées** ✅
+> Généré le 26/06/2026 à 11:48  
+> **34 festivals** · **22 avec dates 2026 confirmées** ✅
 
 ## 📅 Par mois
 
 - [[2026-03-Mars]] — 3 festival(s) *(dont 3 confirmés ✅)*
 - [[2026-04-Avril]] — 1 festival(s) *(dont 1 confirmés ✅)*
 - [[2026-05-Mai]] — 5 festival(s) *(dont 5 confirmés ✅)*
-- [[2026-06-Juin]] — 2 festival(s) *(dont 2 confirmés ✅)*
+- [[2026-06-Juin]] — 3 festival(s) *(dont 3 confirmés ✅)*
 - [[2026-07-Juillet]] — 7 festival(s) *(dont 7 confirmés ✅)*
 - [[2026-08-Août]] — 2 festival(s) *(dont 2 confirmés ✅)*
 - [[2026-12-Décembre]] — 1 festival(s) *(dont 1 confirmés ✅)*
-- [[2026-00-Sans-date]] — 13 sans date
+- [[2026-00-Sans-date]] — 12 sans date
 
 ## 🗂️ Tous les festivals
 
@@ -21,7 +21,7 @@
 - [[festivals/Beauregard Festival|Beauregard Festival]] — Hérouville-Saint-Clair
 - [[festivals/Booska Summer Festival|Booska Summer Festival]] — Ile-de-France
 - [[festivals/Cabaret Vert|Cabaret Vert]] ✅ — Charleville-Mézières
-- [[festivals/Chorégies d'Orange|Chorégies d'Orange]] — Orange
+- [[festivals/Chorégies d'Orange|Chorégies d'Orange]] ✅ — Orange
 - [[festivals/Delta Festival|Delta Festival]] ✅ — Marseille
 - [[festivals/Download Festival Paris|Download Festival Paris]] — Paris
 - [[festivals/Eurockéennes de Belfort|Eurockéennes de Belfort]] ✅ — Belfort
