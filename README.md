@@ -119,4 +119,3 @@ output/
     └── ...
 ```
 
-Pour importer dans Obsidian : ouvrir le dossier `output/` comme vault ou copier son contenu dans un vault existant.
