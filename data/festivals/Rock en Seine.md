@@ -1,13 +1,13 @@
 # Rock en Seine
-    ```
 
-    ## Informations
+## Informations
 
-    * Ville : Saint-Cloud
-    * Genre : Rock
-    * Site : https://www.rockenseine.com
-      
-- Dates : août | MAI | mai | Août
+| Champ | Valeur |
+|-------|--------|
+| 📍 Ville  | Saint-Cloud |
+| 🎸 Genre  | Rock |
+| 📅 Dates  | août · MAI · mai · AOÛT · Août |
+| 🌐 Site   | [https://www.rockenseine.com](https://www.rockenseine.com) |
 
 ## Description
 
@@ -20,3 +20,12 @@ Découvrez le festival Rock en Seine 2026 avec THE CURE, DEFTONES, NICK CAVE & T
 - MIKI
 - RAVYN LENAE...
 - LORDE
+- DJO
+- Kompromat
+- Lykke Li
+- TASH SULTANA...
+- NICK CAVE & THE BAD SEEDS
+
+---
+
+[[INDEX|← Retour à l'index]]

@@ -1,13 +1,13 @@
 # Francofolies de La Rochelle
-    ```
 
-    ## Informations
+## Informations
 
-    * Ville : La Rochelle
-    * Genre : Chanson/Pop FR
-    * Site : https://www.francofolies.fr
-      
-- Dates : juillet | Mai | mai | MAI
+| Champ | Valeur |
+|-------|--------|
+| 📍 Ville  | La Rochelle |
+| 🎸 Genre  | Chanson/Pop FR |
+| 📅 Dates  | juillet · Mai · mai · MAI |
+| 🌐 Site   | [https://www.francofolies.fr](https://www.francofolies.fr) |
 
 ## Description
 
@@ -35,3 +35,7 @@ Les premiers noms : Orelsan, Gims, Aya Nakamura, Mika, Niska, Feu! Chatterton, H
 - Skip The Use
 - Miki
 - Marguerite
+
+---
+
+[[INDEX|← Retour à l'index]]
